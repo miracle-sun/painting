@@ -41,22 +41,11 @@
 	justify-content: space-between;
 }
 
-.frame5,
-.frame9
-{
-	transform: rotate(180deg);
-}
-
-.frame2,
-.frame7
-{
-	transform: rotate(270deg);
-}
-
 .black
 {
 	position: absolute;
-	left: 50%;
+	left: 47.4%;
+	z-index: 3;
 
 	width: 5px;
 	height: 100px;
@@ -76,4 +65,21 @@
 	background: #fff;
 
 	content: '';
+}
+
+.frame5,
+.frame9
+{
+	transform: rotate(180deg);
+}
+
+.frame2,
+.frame7
+{
+	transform: rotate(270deg);
+}
+
+.frame8 .black
+{
+	left: 47.6%;
 }
